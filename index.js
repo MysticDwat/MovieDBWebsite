@@ -483,7 +483,9 @@ app.get("/api/movies/:id", async (req, res) => {
 
 //serves react build
 app.get('/', function (req,res) {
-  res.sendFile(path + "index.html");
+  if(process.env.NODE_ENV === "production"){
+     res.sendFile(path + "index.html");
+  }
 });
 
 //open app on port
