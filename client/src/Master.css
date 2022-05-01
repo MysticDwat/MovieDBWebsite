@@ -1,0 +1,87 @@
+@supports (scrollbar-width: none) {
+    *{
+        scrollbar-width: none;
+    }
+}
+
+@supports (-ms-overflow-style: none) {
+    *{
+        -ms-overflow-style: none;
+    }
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+.Hide{
+    display: none;
+}
+
+button, input[type=submit], .Link{
+    background-color: #2c2c2c;
+    color: white;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 0.5em;
+}
+
+input[type=submit]{
+    font-size: 15px;
+    width: 20%;
+}
+
+.View{
+    color: white;
+    background-color: #2c2c2c;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.Body{
+    display: flex;
+    flex-flow: column nowrap;
+    overflow: scroll;
+    box-sizing: border-box;
+    height: 94%;
+}
+
+.Form{
+    align-self: center;
+    justify-self: center;
+    background-color: black;
+    margin-top: 3em;
+    padding: 1em;
+    width: 30em;
+}
+
+.Form h1{
+    margin-bottom: 1em;
+}
+
+.Form form{
+    display: flex;
+    flex-flow: column;
+    row-gap: 0.3em;
+    font-size: 20px;
+}
+
+.Form div.Input {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.Form div.Input input[type=text], .Form div.Input input[type=password]{
+    box-sizing: border-box;
+    max-width: 100%;
+    min-width: 0;
+    width: 60%;
+    font-size: 17px;
+}
+
+.Form div.Input label{
+    box-sizing: border-box;
+    width: 40%;
+}

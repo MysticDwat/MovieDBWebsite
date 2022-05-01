@@ -1,0 +1,9 @@
+button.FavButton{
+    font-size: 13px;
+    margin-right: 0.5em;
+    text-decoration: none;
+}
+
+button.FavButton.Fav{
+    color: indianred;
+}

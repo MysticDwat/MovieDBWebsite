@@ -1,0 +1,45 @@
+.MovieCard{
+    display: flex;
+    flex-flow: row;
+    align-self: center;
+    justify-self: center;
+    box-sizing: border-box;
+    background-color: black;
+    margin-top: 3vh;
+    padding: 1em;
+    width: 50em;
+}
+
+.MovieCard img{
+    flex: 0 0 auto;
+    width: 50%;
+    height: auto;
+    margin: -0.5em 0.5em -0.5em -0.5em;
+}
+
+.MovieCard .Desc{
+    margin-bottom: auto;
+}
+
+.MovieCard .Desc ul.Actors{
+    list-style-type: none;
+    padding: 1em;
+}
+
+.MovieCard .Desc ul.Actors li{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.MovieCard .Desc ul.Actors li:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.MovieCard .Desc ul.Actors li img{
+    object-fit: cover;
+    border: 2px solid #2c2c2c;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}

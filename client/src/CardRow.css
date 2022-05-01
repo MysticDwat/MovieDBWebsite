@@ -1,0 +1,17 @@
+.CardRow{
+    box-sizing: border-box;
+    padding: 0.5em;
+}
+
+.CardRow h1.RowHeader{
+    border-bottom: 1px solid white;
+}
+
+.CardContainer{
+    display: flex;
+    flex-flow: row nowrap;
+    column-gap: 1ex;
+    overflow: scroll;
+    box-sizing: border-box;
+    background-color: #2c2c2c;
+}

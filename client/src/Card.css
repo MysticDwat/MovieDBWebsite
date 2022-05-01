@@ -1,0 +1,28 @@
+.Card{
+    display: flex;
+    flex-flow: column;
+    flex: 0 0 auto;
+    width: 20em;
+    background-color: black;
+    padding: 0.5em;
+}
+
+.Card *{
+    font-size: 15px;
+    margin-top: auto;
+}
+
+.Card img{
+    width: calc(100% + 1em);
+    margin: -0.5em -0.5em 0.5em -0.5em;
+}
+
+.Card h1{
+    font-size: 17px;
+}
+
+.Card .Link{
+    font-size: 13px;
+    margin-right: 0.5em;
+    text-decoration: none;
+}

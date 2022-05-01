@@ -1,0 +1,7 @@
+.Body *{
+    margin-left: 20px;
+}
+button.Delete{
+    background-color: black;
+    width: 20%;
+}
